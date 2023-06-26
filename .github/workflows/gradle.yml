@@ -9,6 +9,7 @@ permissions:
   
 env:
   S3_BUCKET_NAME: pre13
+  RESOURCE_PATH: ./src/main/resources/application.yml
 jobs:
   build:
 
@@ -21,6 +22,16 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
+
+    # 환경변수 설정
+    - name: Set yml file
+      uses: microsoft/variable-substitution@v1
+      with:
+        files: ${{ env.RESOURCE_PATH }}
+      env:
+        jwt.key: ${{ secrets.JWT_SECRET_KEY }}
+        spring.security.oauth2.client.registration.google.clientSecret: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+        mail.address.admin: ${{ secrets.ADMIN_ADDRESS }}
     - name: Add permission 
       run: chmod +x gradlew 
     - name: Build with Gradle
