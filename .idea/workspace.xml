@@ -4,127 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="865023aa-08ce-42cf-b572-03fd6193f788" name="Changes" comment="fix: cors 수정">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.eslintrc.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Routes.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/apis/ApiController.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/AfterLoginHeader.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/BeforeLoginHeader.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Footer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/LeftNav.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/form/Form.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/quill/Quill.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ui/OAuthArea.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ui/buttons/Button.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ui/buttons/OAuthButton.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ui/input/FormInput.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ui/input/Input.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ui/label/Label.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ui/tooltip/SideToolTip.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ui/tooltip/Tooltip.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/constants/Numbers.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/constants/OAuth.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/constants/config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/dummyData.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/BeforeLoginMainPage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/LoginPage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Question/DetailPage/Answer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Question/DetailPage/AnswerDetailContainer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Question/DetailPage/Question.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Question/DetailPage/QuestionDetailContainer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Question/DetailPage/QuestionDetailPage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Question/DetailPage/QuestionHeader.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Question/DetailPage/Vote.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Question/WritePage/NoticeWritingQuestion.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Question/WritePage/QuestionWritePage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Question/WritePage/Tags.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Question/WritePage/TitleForm.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Question/WritePage/WriteExpectingForm.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Question/WritePage/WriteProblemForm.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/SignUpPage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/queries/useLoginMutation.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/queries/useSignupMutation.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/loginSlice.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/post/postSlice.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/store/store.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/styles/GlobalStyles.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/styles/media.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/types/question.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/utils/checkValid.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/utils/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/vite-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tsconfig.node.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/vite.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/seb44_pre_013.server.main/server/answer/mapper/AnswerMapperImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dummyData.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/generated/server/answer/mapper/AnswerMapperImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/generated/server/member/mapper/MemberMapperImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/ServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/advice/GlobalExceptionAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/answer/controller/AnswerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/answer/dto/AnswerPatchDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/answer/dto/AnswerPostDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/answer/dto/AnswerResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/answer/entity/Answer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/answer/mapper/AnswerMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/answer/repository/AnswerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/answer/service/AnswerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/audit/Auditable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/auth/config/SecurityConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/auth/dto/LoginDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/auth/filter/JwtAuthenticationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/auth/filter/JwtVerificationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/auth/handler/MemberAccessDeniedHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/auth/handler/MemberAuthenticationEntryPoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/auth/handler/MemberAuthenticationFailureHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/auth/handler/MemberAuthenticationSuccessHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/auth/handler/OAuth2MemberSuccessHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/auth/interceptor/JwtParseInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/auth/jwt/JwtTokenizer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/auth/userdetails/MemberDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/auth/utils/CustomAuthorityUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/auth/utils/ErrorResponder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/auth/utils/JwtUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/exception/BusinessLogicException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/exception/ExceptionCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/member/controller/MemberController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/member/controller/MemberResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/member/dto/MemberDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/member/entity/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/member/mapper/MemberMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/member/repository/MemberRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/member/service/MemberService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/question/controller/QuestionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/question/dto/QuestionDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/question/entity/Question.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/question/mapper/QuestionMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/question/repository/QuestionRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/question/service/QuestionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/response/ErrorResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/response/MultiResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/response/PageInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/response/SingleResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/server/utils/UriCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/db/h2/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/test/java/server/server/ServerApplicationTests.java" beforeDir="false" />
+    <list default="true" id="865023aa-08ce-42cf-b572-03fd6193f788" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/seb44_pre_013.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +18,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/server">
       <ProjectState />
     </projectState>
@@ -2649,7 +2538,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "spring.configuration.checksum": "f388e2a0991e057a0316947c380806f0",
     "vue.rearranger.settings.migration": "true"
   },
@@ -2694,7 +2583,7 @@
         <env name="GOOGLE_CLIENT_SECRET" value="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" />
         <env name="JWT_SECRET_KEY" value="dfas678678dafs786asd87a875a4746792567zds57adfs59681578fads6789adfs578112345eqrwaefw" />
       </envs>
-      <module name="server.main" />
+      <module name="seb44_pre_013.server.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="server.ServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -2734,7 +2623,8 @@
       <workItem from="1687478840428" duration="3429000" />
       <workItem from="1687499050255" duration="2474000" />
       <workItem from="1687737671741" duration="6787000" />
-      <workItem from="1687794994346" duration="13000" />
+      <workItem from="1687794994346" duration="101000" />
+      <workItem from="1687795710889" duration="108000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 수정중">
       <created>1687229751382</created>
@@ -2778,7 +2668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687482151145</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first commit">
+      <created>1687795086981</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687795086981</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2804,6 +2701,7 @@
     <MESSAGE value="fix: password 길이 수정" />
     <MESSAGE value="fix: cors 수정" />
     <MESSAGE value="feat: 회원조회 마이페이지" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 회원조회 마이페이지" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
