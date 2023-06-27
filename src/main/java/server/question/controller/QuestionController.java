@@ -51,14 +51,14 @@ public class QuestionController {
         requestBody.setQuestionId(questionId);
         Question findQuestion = questionService.updateQuestion(questionMapper.questionPatchDtoToQuestion(requestBody), authenticatedMemberId);
 
-        return ResponseEntity.ok(new SingleResponseDto<>(questionMapper.questionToQuestionResponseDto(findQuestion)));
+        return ResponseEntity.ok(new SingleResponseDto<>(questionMapper.QuestionToQnaQuestionResponseDto(findQuestion)));
     }
 
     @GetMapping("/{question-id}")
     public ResponseEntity getQuestion(@PathVariable("question-id") @Positive long questionId) {
         Question findQuestion = questionService.findQuestion(questionId);
 
-        return ResponseEntity.ok(new SingleResponseDto<>(questionMapper.questionToQuestionResponseDto(findQuestion)));
+        return ResponseEntity.ok(new SingleResponseDto<>(questionMapper.QuestionToQnaQuestionResponseDto(findQuestion)));
     }
 
     @GetMapping
