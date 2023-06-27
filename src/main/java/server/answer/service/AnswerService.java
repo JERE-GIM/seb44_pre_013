@@ -6,6 +6,7 @@ import server.answer.repository.AnswerRepository;
 import server.exception.BusinessLogicException;
 import server.exception.ExceptionCode;
 
+import javax.transaction.Transactional;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;

@@ -68,6 +68,7 @@ public class GlobalExceptionAdvice {
     @ExceptionHandler
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public ErrorResponse handleException(Exception e) {
+        log.error("# handle Exception: {}", e);
 
         return ErrorResponse.of(HttpStatus.INTERNAL_SERVER_ERROR);
     }
