@@ -32,7 +32,9 @@ jobs:
         jwt.key: ${{ secrets.JWT_SECRET_KEY }}
         spring.security.oauth2.client.registration.google.clientSecret: ${{ secrets.GOOGLE_CLIENT_SECRET }}
         mail.address.admin: ${{ secrets.ADMIN_ADDRESS }}
-    - name: Add permission 
+        spring.datasource.url: ${{ secrets.DB_URL }}
+        spring.datasource.password: ${{ secrets.DB_PASSWORD }}
+    - name: Add permission
       run: chmod +x gradlew 
     - name: Build with Gradle
       uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
