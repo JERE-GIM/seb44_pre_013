@@ -39,4 +39,4 @@ mail:
   address:
     admin: ${ADMIN_ADDRESS}
 config:
-  domain: http://pre-13.s3-website.ap-northeast-2.amazonaws.com
+  domain: http://pre-13.s3-website.ap-northeast-2.amazonaws.com:80
