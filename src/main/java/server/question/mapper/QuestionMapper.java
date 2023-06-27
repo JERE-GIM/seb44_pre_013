@@ -18,7 +18,7 @@ public interface QuestionMapper {
 
     Question questionPatchDtoToQuestion(QuestionDto.Patch requestBody);
 
-    default QuestionDto.Response QuestionToQnaQuestionResponseDto(Question question, List<Answer> answers) {
+    default QuestionDto.Response QuestionToQnaQuestionResponseDto(Question question) {
         return
                 QuestionDto.Response.builder()
                         .questionId(question.getQuestionId())
