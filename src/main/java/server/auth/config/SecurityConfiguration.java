@@ -84,7 +84,7 @@ public class SecurityConfiguration implements WebMvcConfigurer {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowCredentials(true);
-        configuration.setAllowedOrigins(Arrays.asList("http://localhost:5173", "http://ec2-3-36-132-102.ap-northeast-2.compute.amazonaws.com:8080"));
+        configuration.setAllowedOrigins(Arrays.asList("http://localhost:5173", "http://pre-13.s3-website.ap-northeast-2.amazonaws.com"));
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PATCH", "DELETE"));
         configuration.setAllowedHeaders(Arrays.asList("*"));
         configuration.addExposedHeader("Location");
@@ -132,7 +132,7 @@ public class SecurityConfiguration implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("http://localhost:5173", "ec2-3-36-132-102.ap-northeast-2.compute.amazonaws.com:8080")
+                .allowedOrigins("http://localhost:5173", "http://pre-13.s3-website.ap-northeast-2.amazonaws.com")
                 .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true)
